@@ -1,4 +1,4 @@
-# ⚡ Next.js 16 Canary + React 19 Stable + ShadCN + Tailwind v4 + Radix UI Design System Monorepo
+# ⚡ Next.js 16 Canary + React 19 Stable + ShadCN + Tailwind CSS v4 + Radix UI Design System Monorepo
 
 [![Next.js](https://img.shields.io/badge/Next.js-16 Canary-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19 Stable-blue?logo=react)](https://react.dev/)

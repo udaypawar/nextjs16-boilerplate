@@ -1,0 +1,21 @@
+{
+  "name": "@design/theme",
+  "packageManager": "yarn@4.10.3",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "import": "./index.ts"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next-themes": "^0.4.6",
+    "react": "^19",
+    "react-dom": "^19"
+  }
+}

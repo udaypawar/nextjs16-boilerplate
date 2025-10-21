@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --radius: 12px;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --brand-50: #f5f8ff;
+  --brand-500: #3366ff;
+}
+@custom-variant dark (&:is(.dark *), &:is([data-theme="dark"] *));
+:root:where(.dark, [data-theme="dark"]) {
+  --brand-500: #668cff;
+}

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".", // Important for monorepo-relative pathing
+    "paths": {
+      "@design/ui": ["packages/ui/src"],
+      "@design/ui/*": ["packages/ui/src/*"],
+      "@design/theme": ["packages/theme/"],
+      "@design/theme/*": ["packages/theme/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "apps/web" },
+    { "path": "packages/ui" },
+    { "path": "packages/theme" }
+  ]
+}
